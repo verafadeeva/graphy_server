@@ -1,4 +1,4 @@
-FROM node:25.0.0-bookworm-slim
+FROM node:25.0.0-trixie-slim
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
